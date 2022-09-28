@@ -15,6 +15,7 @@
 <base href="{{ .Site.BaseURL }}">
 <meta name="theme-color" content="#ffffff">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Author.name }}{{ end }}</title>
+<link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/css/page.css">
 {{- if ne .Site.Params.googleAnalytics "" -}}
   {{ template "_internal/google_analytics_async.html" . }}

@@ -5,22 +5,27 @@ publishdir = "public"
 canonifyUrls = "true"
 disableKinds = ["RSS","taxonomy","taxonomyTerm"] # disable hugo's content that we don't need...
 
-title = "AWE.SOME - A Landing Page Template for Hugo" # page title -> see ./layouts/partials/head.html
+title = "Deep Learning Seminar" # page title -> see ./layouts/partials/head.html
 
 googleAnalytics = "" # if needed...
 
+
+[markup.goldmark.renderer]
+unsafe= true
+
 [author]
-    name = "AWE.SOME"
-    email = "awe.some@example.com"
+    name = "Michael Scherbela"
+    email = "michael.scherbela@gmail.com"
 
 [params]
-    description = "AWE.SOME - A Landing Page Template for Hugo" # page description -> see ./layouts/partials/head.html
+    description = "Landing page for the Deep Learning seminar and reading group at University of Vienna"
     images = [] #add images here as "img/name.ext" (points to s./static/img/) to populate the default og and twitter <meta> attributes -> see ./layouts/partials/head.html
 
 # these items will be rendered 1. into a tooltip in the navbar and 2. into the footer - consider that there's limited space when adding more items -> see ./layouts/partials
-[[params.social]]
-    title = "Twitter"
-    url = "https://twitter.com/#" # add your twitter handle
-[[params.social]]
-    title = "LinkedIn"
-    url = "https://linkedin.com/company/#" # add your linkedin profile URL
+# [[params.social]]
+#     title = "Twitter"
+#     url = "https://twitter.com/#" # add your twitter handle
+# [[params.social]]
+#     title = "LinkedIn"
+#     url = "https://linkedin.com/company/#" # add your linkedin profile URL
+

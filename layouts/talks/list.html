@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+<div class="self-center w-full sm:w-2/3 xl:w-1/2 px-20 sm:px-8 flex flex-col mt-6">
+    <div class="self-center">
+        {{ $talks := (where .Site.RegularPages "Section" "talks")}}
+        {{ $upcoming_talks := (sort (where $talks ".Params.talk_date" "ge" now) ".Params.talk_date") }}
+        {{ $past_talks := (sort (where $talks ".Params.talk_date" "lt" now) ".Params.talk_date") }}
+
+        <div class="my-6">
+            <h2 class="tracking-wide text-pink-600 font-bold text-4xl mb-4">Upcoming Talks</h2>
+            {{ range $upcoming_talks}}
+            <div class="my-3">
+                <a class="text-2xl hover:underline" href="{{ .Permalink }}">{{ .Title }}</a>
+                <h6 class="font-bold text-lg">{{ .Params.presenter }}</h6>
+                {{ .Params.talk_date.Format "Mon, 2. Jan 2006, 15:04"}}
+            </div>
+            {{ end }}
+        </div>
+        <div class="my-6">
+            <h2 class="tracking-wide text-pink-600 font-bold text-4xl mb-4">Past Talks</h2>
+            {{ range $past_talks }}
+            <div>
+                <a class="text-2xl hover:font-bold" href="{{ .Permalink }}">{{ .Title }}</a>
+                <h6 class="font-bold text-lg">{{ .Params.presenter }}</h6>
+                {{ .Params.talk_date.Format "Mon, 2. Jan 2006, 15:04"}}
+            </div>
+            {{ end}}
+        </div>
+    </div>
+</div>
+{{ end }}
