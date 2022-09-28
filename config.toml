@@ -1,5 +1,6 @@
 # SETUP
-baseURL = "dl-seminar.scherbela.com"
+baseURL = "https://dl-seminar.scherbela.com"
+relativeURLs = true
 DefaultContentLanguage = "en"
 publishdir = "public"
 canonifyUrls = "true"
