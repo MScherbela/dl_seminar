@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: false, /* set to true for production (smaller bundle size) */
+    enabled: true, /* set to true for production (smaller bundle size) */
     content: [
       './content/**/*.md',
       './layouts/**/*.html',
