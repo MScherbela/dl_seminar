@@ -9,7 +9,7 @@ We are a group of motivated PhD students, discussing cutting edge research. Gues
 
 <div class="my-6">
 <h1 class="text-2xl mt-3 font-bold text-gray-800">When and where?</h1>
-<b>Every Thursday at 14:00</b> in our seminar room at University of Vienna: Kolingasse 14-16, Room 7.15
+<b>Every Thursday at 10:00</b> in our seminar room at University of Vienna: Kolingasse 14-16, Room 7.21
 </div>
 
 <div class="my-6">
