@@ -8,6 +8,8 @@
     <div id="menu" class="w-full sm:w-auto self-end sm:self-center hidden sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0">
         <a class="text-gray-800 font-bold hover:text-pink-600 text-lg text-center w-full no-underline sm:w-auto sm:pr-8 py-2 sm:py-1" href="{{ if .IsHome }}#about{{ else }}{{ .Site.BaseURL }}#about{{ end }}">About</a>
         <a class="text-gray-800 font-bold hover:text-pink-600 text-lg text-center w-full no-underline sm:w-auto sm:pr-8 py-2 sm:py-1" href="/talks">Talks</a>
+        <a class="text-gray-800 font-bold hover:text-pink-600 text-lg text-center w-full no-underline sm:w-auto sm:pr-8 py-2 sm:py-1" href="/topics">Open Topics</a>
+
         {{ range .Site.Params.social }}
             <a href="{{ .url }}" class="text-gray-800 font-bold hover:text-pink-600 text-lg text-center w-full no-underline sm:hidden py-2" target="_blank" rel="noopener">{{ .title }}</a>
         {{ end }}

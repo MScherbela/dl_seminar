@@ -6,15 +6,15 @@
     {{ end }}
 </head>
 <body id="top" class="font-sans text-gray-800 bg-gray-200">
-    <div id="site"> <!-- real SITE starts here -->
-        <main>
+    <div id="site" class="flex flex-col h-screen justify-between"> <!-- real SITE starts here -->
+        <main class="mb-auto">
             {{ block "main" . }}
                 <!-- site content from index.html -->
             {{ end }}
         </main>
-<!--        {{ block "footer" . }}-->
-<!--            {{ partial "footer.html" . }}-->
-<!--        {{ end }}-->
+        {{ block "footer" . }}
+            {{ partial "footer.html" . }}
+        {{ end }}
     </div> <!-- SITE BODY ends here -->
     {{ partial "js.html" . }}
 </body>
