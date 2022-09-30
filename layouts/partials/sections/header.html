@@ -13,7 +13,7 @@
         list-style: none;
 
         animation-name: change;
-        animation-duration: 8s;
+        animation-duration: 6s;
         animation-iteration-count: infinite;
     }
 
@@ -52,21 +52,19 @@
                         <li class="content__container__list__item xl:pl-0">Theory</li>
                     </ul>
                 </span>
-                <h4 class="font-bold text-3xl pb-3">Upcoming Talk:</h4>
+                <h4 class="font-bold text-3xl">Upcoming Talk:</h4>
                 {{ $talks := (where .Site.RegularPages "Section" "talks")}}
                 {{ $talks := (sort $talks ".Params.talk_date")}}
                 {{ $talks := first 1 (where $talks ".Params.talk_date" "ge" now ) }}
                 {{ range $talks}}
                 <div>
-                    <h4 class="text-2xl">{{ .Title }}</h4>
+                    <a class="text-2xl underline" href="{{ .Permalink }}">{{ .Title }}</a>
                     <h6 class="font-bold text-lg">{{ .Params.presenter }}</h6>
                     {{ .Params.talk_date.Format "Mon, 2. Jan 2006, 15:04"}}
                 </div>
-
                 {{ end }}
             </div>
             <div class="w-full sm:w-1/2">
-<!--                <img src="/img/undraw_Friends_online_re_r7pq.svg" alt="AWE.SOME header">-->
                 <img src="/img/learning.webp">
             </div>
         </div>
