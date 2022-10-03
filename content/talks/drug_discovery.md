@@ -1,7 +1,7 @@
 +++
-title = "Tackling Drug Discovery Using Machine Learning"
+title = "Drug Discovery Using Machine Learning"
 presenter = "Leon Gerard"
-talk_date = 2022-10-13T10:00:00+00:00
+talk_date = 2022-10-19T10:30:00+00:00
 +++
 
 Druge Discovery
