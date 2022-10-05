@@ -2,6 +2,7 @@
 title = "E(3)-Equivariant Neural Networks"
 presenter = "Michael Scherbela"
 talk_date = 2022-10-05T10:30:00+00:00
+slides = "20221005_Equivariant_NNs.pdf"
 +++
 
 When learning a property from data, it is often useful or required that the model obeys symmetries of the underlying data.
