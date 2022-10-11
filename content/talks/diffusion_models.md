@@ -8,6 +8,6 @@ Diffusion models have established themselves as state-of-the-art in generative m
 The underlying concepts are largely based on works by Song et al. (2020), Kingma et al. (2021), and Huang et al. (2021).
 
 Resources:
-- [Song 2020](https://arxiv/abs/2011.13456)
-- [Kingma 2021](https://arxiv/abs/2107.00630)
-- [Huang 2021](https://arxiv/abs/2106.02808)
+- [Song 2020](https://arxiv.org/abs/2011.13456)
+- [Kingma 2021](https://arxiv.org/abs/2107.00630)
+- [Huang 2021](https://arxiv.org/abs/2106.02808)
