@@ -19,6 +19,7 @@
 <div id="{{ .Title }}" class="w-full flex flex-col justify-center items-center">
     <div class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
         <h2 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ .Title }}</h2>
+        <h4 class="font-bold">{{.Params.presenter}}, {{.Params.talk_date.Format "02. Jan 2006"}}</h4>
         {{ if isset .Params "slides"}}
         <div class="py-4">
         <a class="text-center py-2 px-4 text-gray-200 bg-pink-600 rounded-full shadow-md text-lg hover:bg-gray-800 hover:border-red no-underline"
