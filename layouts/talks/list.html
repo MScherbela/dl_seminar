@@ -19,7 +19,7 @@
         <div class="mb-12">
             <h2 class="tracking-wide text-pink-600 font-bold text-4xl mb-4">Past Talks</h2>
             {{ range $past_talks }}
-            <div>
+            <div class="mb-6">
                 <a class="text-2xl hover:underline" href="{{ .Permalink }}">{{ .Title }}</a>
                 <h6 class="font-bold text-lg">{{ .Params.presenter }}</h6>
                 {{ .Params.talk_date.Format "Mon, 2. Jan 2006, 15:04"}}
