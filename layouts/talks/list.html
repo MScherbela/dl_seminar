@@ -4,7 +4,7 @@
     <div class="self-center">
         {{ $talks := (where .Site.RegularPages "Section" "talks")}}
         {{ $upcoming_talks := (sort (where $talks ".Params.talk_date" "ge" now) ".Params.talk_date") }}
-        {{ $past_talks := (sort (where $talks ".Params.talk_date" "lt" now).Reverse ".Params.talk_date") }}
+        {{ $past_talks := (sort (where $talks ".Params.talk_date" "lt" now) ".Params.talk_date").Reverse }}
 
         <div class="mb-12">
             <h2 class="tracking-wide text-pink-600 font-bold text-4xl mb-4">Upcoming Talks</h2>
