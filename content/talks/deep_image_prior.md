@@ -1,7 +1,7 @@
 +++
 title = "Deep Image Prior"
 presenter = "Michael Scherbela"
-talk_date = 2022-11-03T10:30:00+00:00
+talk_date = 2022-11-02T10:30:00+00:00
 slides = "20221103_Deep_Image_Prior.pdf"
 +++
 
