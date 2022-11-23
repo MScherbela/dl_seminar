@@ -1,6 +1,8 @@
 +++
-title = "TBA"
+title = "Self-Attention Between Datapoints"
 presenter = "Ruard van Workum"
 talk_date = 2022-11-23T10:30:00+00:00
 +++
 
+References:
+- <https://arxiv.org/abs/2106.02584>
