@@ -1,7 +1,7 @@
 +++
 title = "Graphical Models"
 presenter = "Julius Berner"
-talk_date = 2023-01-11T10:30:00+00:00
+talk_date = 2023-02-15T10:30:00+00:00
 +++
 
 Resources:
