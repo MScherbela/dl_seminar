@@ -1,5 +1,7 @@
 +++
-title = "TBD"
+title = "Why attention: A review of alternatives"
 presenter = "Ruard van Workum"
-talk_date = 2023-01-25T10:30:00+00:00
+talk_date = 2023-02-01T10:30:00+00:00
 +++
+
+<https://arxiv.org/pdf/2109.04553.pdf>
