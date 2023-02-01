@@ -1,5 +1,5 @@
 +++
-title = "Why attention: A review of alternatives"
+title = "Is attention better than matrix decomposition?"
 presenter = "Ruard van Workum"
 talk_date = 2023-02-01T10:30:00+00:00
 +++
