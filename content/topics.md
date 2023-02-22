@@ -13,9 +13,10 @@ padding-left:30px;
 You want to give a presentation, but are not sure which topic to choose? 
 Here is a long-list of potential topics which might be of interest to the group:
 
-- Reinforcement learning
 - Attention / Transformers
 - Vision Transformers
 - Generative models
+- Applications in the natural sciences
+- Graph Neural Networks
 
 
