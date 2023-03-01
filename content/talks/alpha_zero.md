@@ -6,4 +6,4 @@ slides = "AlphaZero_talk.pdf"
 +++
 
 Introduction to Monte Carlo Tree search and its use in AlphaZero.
-See also the previous talk on [Model-free Reinforcement Learning] ( {{ < ref "talks/reinforcement_learning.md" >}})
+See also the previous talk by Timo on [Model-free Reinforcement Learning](/talks/reinforcement_learning)
