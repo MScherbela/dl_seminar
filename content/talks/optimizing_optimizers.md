@@ -2,6 +2,7 @@
 title = "Optimizing Optimizers"
 presenter = "Michael Scherbela"
 talk_date = 2023-03-22T11:00:00+00:00
+slides = "2023-03-22_Optimizing_Optimizers.pdf"
 +++
 
 A short overview of 3 papers, which each try to find better first order optimizers, by optimizing their optimizers:
