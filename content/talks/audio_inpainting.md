@@ -1,7 +1,7 @@
 +++
 title = "Audio Inpainting"
 presenter = "Georg Tauböck"
-talk_date = 2023-26-04T11:00:00+00:00
+talk_date = 2023-04-26T11:00:00+00:00
 +++
 
 
