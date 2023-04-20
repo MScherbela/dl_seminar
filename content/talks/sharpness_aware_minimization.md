@@ -2,6 +2,7 @@
 title = "Sharpness-Aware Minimization"
 presenter = "Axel Böhm"
 talk_date = 2023-04-19T11:30:00+00:00
+slides = "sharpness.pdf"
 +++
 
 For overparameterized models, the training loss provides few guarantees on model generalization. 
