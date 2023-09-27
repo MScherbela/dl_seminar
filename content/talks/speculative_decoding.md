@@ -2,6 +2,7 @@
 title = "Speculative decoding of LLMs"
 presenter = "Michael Scherbela"
 talk_date = 2023-09-13T11:00:00+00:00
+slides = "20230913_Speculative_Decoding.pdf"
 +++
 
 Short presentation of "Fast Inference from Transformers via Speculative Decoding", by Leviathan et al.

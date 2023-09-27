@@ -1,0 +1,7 @@
++++
+title = "Transition Path Sampling using Normalizing Flows"
+presenter = "Sebastian Falkner"
+talk_date = 2023-10-04T11:00:00+00:00
++++
+
+Understanding the dynamics of complex molecular processes is often linked to the study of infrequent transitions between long-lived stable states. The standard approach to the sampling of such rare events is to generate an ensemble of transition paths using a random walk in trajectory space. This, however, comes with the drawback of strong correlations between subsequently sampled paths and with an intrinsic difficulty in parallelizing the sampling process. We propose a transition path sampling scheme based on neural-network generated configurations. These are obtained employing normalizing flows, a neural network class able to generate statistically independent samples from a given distribution. With this approach, not only are correlations between visited paths removed, but the sampling process becomes easily parallelizable. Moreover, by conditioning the normalizing flow, the sampling of configurations can be steered towards regions of interest. We show that this approach enables the resolution of both the thermodynamics and kinetics of the transition region for systems that can be sampled using exact-likelihood generative models.
